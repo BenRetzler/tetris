@@ -1,3 +1,6 @@
+:root {
+  --time: 3s;
+}
 body {
   overflow: hidden;
   background: #d7d7d7;
@@ -52,25 +55,25 @@ body {
   border: 1px solid white;
 }
 .type0 {
-  animation: 1s sus linear infinite;
+  animation: var(--time) sus linear infinite;
 }
 .type1 {
-  animation: 1s sus linear infinite;
+  animation: var(--time) sus linear infinite;
 }
 .type2 {
-  animation: 1s sus linear infinite;
+  animation: var(--time) sus linear infinite;
 }
 .type3 {
-  animation: 1s sus linear infinite;
+  animation: var(--time) sus linear infinite;
 }
 .type4 {
-  animation: 1s sus linear infinite;
+  animation: var(--time) sus linear infinite;
 }
 .type5 {
-  animation: 1s sus linear infinite;
+  animation: var(--time) sus linear infinite;
 }
 .type6 {
-  animation: 1s sus linear infinite;
+  animation: var(--time) sus linear infinite;
 }
 #next_shape {
   position: relative;
@@ -88,9 +91,17 @@ body {
   padding: 10px;
 }
 @keyframes sus {
-	0%		{background: #000000;}
-  25%   {background: #6666ee;}
-	50%		{background: #ffffff;}
-  75%   {background: #6666ee;}
-	100%	{background: #000000;}
+	0%		  {background: #ee6666;}
+  8.33%   {background: #ee9966;}
+  16.67%  {background: #eeee66;}
+  25%     {background: #99ee66;}
+	33.33%	{background: #66ee66;}
+  41.67%  {background: #66ee99;}
+  50%     {background: #66eeee;}
+  58.33%  {background: #6699ee;}
+  66.67%  {background: #6666ee;}
+  75%     {background: #9966ee;}
+  83.33%  {background: #ee66ee;}
+  91.67%  {background: #ee6699;}
+	100%	  {background: #ee6666;}
 }
