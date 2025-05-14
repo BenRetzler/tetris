@@ -58,7 +58,7 @@
         [0, -2],
         [1, -1],
         [0, 0],
-        [0, 0], //square
+        [0, -1], //idk man
       ],
     ],
     tempShapes: null,
