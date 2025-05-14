@@ -1,0 +1,94 @@
+body {
+  overflow: hidden;
+  background: #d7d7d7;
+}
+#tetris {
+  width: 360px;
+  border: 1px solid black;
+  padding: 20px;
+}
+#canvas {
+  width: 200px;
+  height: 440px;
+  background-color: #000;
+  position: relative;
+  color: #fff;
+}
+#canvas h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 200px;
+}
+.piece {
+  border: 1px solid white;
+  position: absolute;
+}
+
+#start{
+  animation: blink .7s steps(2, start) infinite;
+  background: #E1FF5F;
+  border-radius: 2px;
+  color: #202020;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+@keyframes blink {
+  to {
+    outline: #E1FF5F solid 1px;
+  }
+}
+
+.red{
+  color: #f00000;
+}
+
+.square {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  border: 1px solid white;
+}
+.type0 {
+  animation: 1s sus linear infinite;
+}
+.type1 {
+  animation: 1s sus linear infinite;
+}
+.type2 {
+  animation: 1s sus linear infinite;
+}
+.type3 {
+  animation: 1s sus linear infinite;
+}
+.type4 {
+  animation: 1s sus linear infinite;
+}
+.type5 {
+  animation: 1s sus linear infinite;
+}
+.type6 {
+  animation: 1s sus linear infinite;
+}
+#next_shape {
+  position: relative;
+  background-color: #000;
+  border: 1px solid white;
+  width: 110px;
+  height: 110px;
+}
+#info {
+  background-color: #000;
+  color: #fff;
+  float: right;
+  width: 110px;
+  height: 420px;
+  padding: 10px;
+}
+@keyframes sus {
+	0%		{background: #000000;}
+	50%		{background: #ffffff;}
+	100%	{background: #000000;}
+}
