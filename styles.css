@@ -89,6 +89,8 @@ body {
 }
 @keyframes sus {
 	0%		{background: #000000;}
+  25%   {background: #6666ee;}
 	50%		{background: #ffffff;}
+  75%   {background: #6666ee;}
 	100%	{background: #000000;}
 }
