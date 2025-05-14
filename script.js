@@ -4,7 +4,7 @@
     board: [],
     boardDiv: null,
     canvas: null,
-    pSize: 20,
+    pSize: 10,
     canvasHeight: 440,
     canvasWidth: 200,
     boardHeight: 0,

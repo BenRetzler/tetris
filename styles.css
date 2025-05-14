@@ -54,10 +54,10 @@ body {
   height: 19px;
   border: 1px solid white;
 }
-.type0 {
-  animation: var(--time) sus linear infinite;
+.type0, .type1, .type2, .type3, .type4, .type5, .type6 {
+  animation: 1s sus linear infinite;
 }
-.type1 {
+/*.type1 {
   animation: var(--time) sus linear infinite;
 }
 .type2 {
@@ -74,7 +74,7 @@ body {
 }
 .type6 {
   animation: var(--time) sus linear infinite;
-}
+}*/
 #next_shape {
   position: relative;
   background-color: #000;
