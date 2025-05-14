@@ -4,7 +4,7 @@
     board: [],
     boardDiv: null,
     canvas: null,
-    pSize: 10,
+    pSize: 20,
     canvasHeight: 440,
     canvasWidth: 200,
     boardHeight: 0,
@@ -53,6 +53,12 @@
         [1, -1],
         [0, 0],
         [1, 0], //square
+      ],
+      [
+        [0, -2],
+        [1, -1],
+        [0, 0],
+        [0, 0], //square
       ],
     ],
     tempShapes: null,
